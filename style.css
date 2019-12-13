@@ -23,21 +23,26 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
     line-height: 1;
-    background-color: rgb(206, 210, 255);
+    background-color: rgb(197, 207, 253);
 }
+
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -83,6 +88,7 @@ nav {
         transform: translate(-5%, -50%);
         z-index: 2;
     }
+
     .nav-links {
         position: fixed;
         background: #5b78c7;
@@ -242,5 +248,233 @@ nav {
         text-decoration: none;
         color: #5b78c7;
         padding-bottom: 10px;
+    }
+
+    .openPlayWrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #eef33b;
+        border: 2px solid #f34036;
+        border-radius: 10px;
+        margin: 15px;
+    }
+
+    .openPlayWrapper h1 {
+        font-family: 'Acme', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        padding-top: 10px;
+        text-decoration: underline;
+        color: #5b78c7;
+        text-shadow:
+        -1px -1px 0 whitesmoke,
+        1px 1px 0 whitesmoke,
+        -1px 1px 0 whitesmoke,
+        1px 1px 0 whitesmoke;
+    }
+
+    .openPlayWrapper li {
+        font-family: 'Acme', sans-serif;
+        font-size: 17px;
+        letter-spacing: 1px;
+        padding-bottom: 10px;
+    }
+
+    .openPlayWrapper ul {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .price {
+        font-weight: bold;
+    }
+
+    .birthdayWrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #eef33b;
+        border: 2px solid #f34036;
+        border-radius: 10px;
+        margin: 15px;
+    }
+
+    .birthdayWrapper h1 {
+        font-family: 'Acme', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        padding-top: 30px;
+        text-shadow:
+        -1px -1px 0 whitesmoke,
+        1px 1px 0 whitesmoke,
+        -1px 1px 0 whitesmoke,
+        1px 1px 0 whitesmoke;
+    }
+
+    .birthdayWrapper h2 {
+        font-family: 'Acme', sans-serif;
+        font-size: 17px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-style: oblique;
+        text-decoration: underline;
+    }
+
+    .birthdayWrapper li {
+        font-family: 'Acme', sans-serif;
+        font-size: 17px;
+        letter-spacing: 1px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+    .birthdayWrapper p {
+        font-family: 'Acme', sans-serif;
+        font-size: 17px;
+        letter-spacing: 1px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 5px;
+        padding-top: 5px;
+    }
+
+    .birthdayHeader {
+        text-decoration: underline;
+        color: #5b78c7;
+        font-size: 20px;
+        text-shadow:
+        -1px -1px 0 whitesmoke,
+        1px 1px 0 whitesmoke,
+        -1px 1px 0 whitesmoke,
+        1px 1px 0 whitesmoke;
+    }
+
+    .birthdayWrapper h3 {
+        padding-top: 20px;
+        font-weight: bold;
+        font-size: 20px;
+        color: #f34036;
+        text-decoration: underline;
+        text-shadow:
+        -1px -1px 0 whitesmoke,
+        1px 1px 0 whitesmoke,
+        -1px 1px 0 whitesmoke,
+        1px 1px 0 whitesmoke;
+    }
+
+    .birthdayWrapper ul {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .birthdayWrapper h4 {
+        padding-top: 10px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 5px;
+        font-weight: bold;
+        font-size: 19px;
+    }
+
+    .menuOption {
+        font-style: oblique;
+    }
+
+    .contactWrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #eef33b;
+        border: 2px solid #f34036;
+        border-radius: 10px;
+        margin: 15px;
+    }
+
+    .contactWrapper h1 {
+        font-family: 'Acme', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        color: #5b78c7;
+        letter-spacing: 1px;
+        padding-top: 30px;
+        padding-left: 120px;
+        text-shadow:
+        -1px -1px 0 whitesmoke,
+        1px 1px 0 whitesmoke,
+        -1px 1px 0 whitesmoke,
+        1px 1px 0 whitesmoke;
+    }
+
+    .contactWrapper h2 {
+        font-family: 'Acme', sans-serif;
+        font-size: 17px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        padding-top: 10px;
+        padding-right: 50px;
+        padding-left: 50px;
+        font-style: oblique;
+    }
+
+    .contactEmail {
+        padding-bottom: 30px;
+    }
+
+    .contactForm {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #eef33b;
+        border: 2px solid #f34036;
+        border-radius: 10px;
+        margin: 15px;
+        padding-top: 30px;
+        padding-right: 50px;
+        padding-left: 75px;
+        padding-bottom: 30px;
+    }
+
+    .contactForm h1 {
+        font-family: 'Acme', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        color: #5b78c7;
+        letter-spacing: 1px;
+        padding-left: 50px;
+        padding-bottom: 20px;
+        text-shadow:
+        -1px -1px 0 whitesmoke,
+        1px 1px 0 whitesmoke,
+        -1px 1px 0 whitesmoke,
+        1px 1px 0 whitesmoke;
+    }
+
+    .contactForm input {
+        margin-bottom: 5px;
+        border: 2px solid #5b78c7
+    }
+
+    .submitButton {
+        margin-top: 5px;
+        margin-bottom: 30px;
+        background-color: #5b78c7;
+        color: whitesmoke;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .contactForm textarea {
+        border: 2px solid #5b78c7;
     }
 }
